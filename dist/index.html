@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Self-driving car - No Libraries</title>
+    <style>
+        body {
+            margin: 0;
+            background: darkgrey;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #vertical-button {
+            display: flex;
+            flex-direction: column;
+        }
+
+        button {
+            border: none;
+            border-radius: 5px;
+            padding: 5px 5px 7px 5px;
+            margin: 2px;
+            cursor: pointer;
+            font-size: 12;
+            font-weight: 700;
+        }
+
+        #carCanvas {
+            background: lightgray;
+        }
+
+        #networkCanvas {
+            background: black;
+        }
+    </style>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <canvas id="carCanvas"></canvas>
+    <div id="vertical-button"></div>
+    <canvas id="networkCanvas"></canvas>
+    <script src="../main.js" type="module"></script>
+</body>
+</html>

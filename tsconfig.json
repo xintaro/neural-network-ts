@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "es6",
+        "target": "ES2015",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "es2018"
+        ],
+    },
+    "include": [
+        "*",
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "webpack.config.js"
+    ]
+}
